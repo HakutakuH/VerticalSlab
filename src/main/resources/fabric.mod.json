@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "verticalslab",
+	"version": "${version}",
+	"name": "VerticalSlab",
+	"description": "This is a Iolite Mod \n Addon some Block",
+	"authors": [
+		"HakutakuH",
+		"Iolite"
+	],
+	"contact": {
+		"homepage": " ",
+		"sources": " "
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/verticalslab/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.hakutakuh.VerticalSlab"
+		],
+		"client": [
+			"com.hakutakuh.client.VerticalSlabClient"
+		]
+	},
+	"mixins": [
+		"verticalslab.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
